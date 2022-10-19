@@ -8,3 +8,427 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (width < 769px){
+
+nav {
+    background-color: #540B51;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content:space-between;
+    padding: 25px;
+	position: sticky;
+	top: 0px;
+    z-index: 1;
+    
+    }
+
+nav .menu {
+    display: none;
+}
+
+.slack-logo {
+    width: 85px;
+}
+
+nav .nav-right {
+    width: 70px;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav .nav-right button {
+    
+    background: none;
+    border: none;
+}
+
+
+header {
+
+    background-color: #540B51;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header .hd-1{
+    text-align: center;
+    padding: 15px;
+}
+
+header .hd-1 h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 5px;
+}
+
+header .hd-1 p{
+    margin-top: 25px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+header .hd-2 .mail-button{
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #540B51;
+    
+}
+
+header .hd-2 .google-button{
+
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #4285F4;
+    margin-top: 15px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+header .hd-2 .google-button img{
+
+    padding: 7px;
+    border-style: none;
+    
+    border-radius: 2px;
+    background-color: white;
+    width: 36px;
+}
+
+header .hd-2 .google-button span{
+
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+header .hd-heroimg {
+    background-image: url("../images/hero-product-ui.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+}
+
+main .ms-companies{
+    width: 100%;
+    background-color: #F3EAE2;
+    padding: 30px;
+}
+
+main .ms-companies p {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding-top: 10px;
+
+}
+
+main .companies-logos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+main .companies-logos .airbnb-logo {
+    max-width: auto;
+    height: 3.5vh;
+}
+
+main .companies-logos .nasa-logo {
+    max-width: auto;
+    height: 5.5vh;
+}
+main .companies-logos .uber-logo {
+    max-width: auto;
+    height: 3.5vh;
+}
+main .companies-logos .target-logo {
+    max-width: auto;
+    height: 5.5vh;
+}
+main .companies-logos .nyt-logo {
+    max-width: auto;
+    height: 3.5vh;
+}
+
+main .companies-logos .spotify-logo {
+    max-width: auto;
+    height: 3.5vh;
+}
+
+main .ms-mobile-1 {
+    background-color: #F3EAE2;
+}
+
+main .ms-mobile-1 .connectedness {
+    width: 90%;
+    height: 100%;
+    
+}
+
+main .ms-mobile-1 .ms-mobile-1-txt {
+   
+    font-family: sans-serif;
+    padding: 10px;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+main .ms-mobile-1 .ms-mobile-1-txt h2{
+   
+    font-size: 1.6rem;
+}
+
+main .ms-mobile-1 .ms-mobile-1-txt p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .ms-mobile-1 .ms-mobile-1-txt a {
+    
+    text-decoration: none;
+    color:#2E71A6;
+    font-weight: bold;
+}
+
+main .ms-mobile-2 {
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: column-reverse;
+}
+main .ms-mobile-2 .ms-mobile-2-img {
+    
+    margin-top: 55px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+    
+}
+
+main .ms-mobile-2 .flexibility{
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+main .ms-mobile-2 .ms-mobile-2-txt {
+
+}
+
+main .ms-mobile-2 .ms-mobile-2-txt {
+   
+    font-family: sans-serif;
+    padding: 10px;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+main .ms-mobile-2 .ms-mobile-2-txt h2{
+   
+    font-size: 1.6rem;
+}
+
+main .ms-mobile-2 .ms-mobile-2-txt p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .ms-mobile-2 .ms-mobile-2-txt a {
+    text-decoration: none;
+    color: #2E71A6;
+    font-weight: bold;
+}
+
+
+main .ms-mobile-3 {
+    background-color: #F3EAE2;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    
+}
+
+main .ms-mobile-3 .ms-mobile-3-img{
+    
+    
+    background-color: #F3EAE2;
+    width: 100%;
+    height: 100%;
+    padding-top: 55px;
+    
+}
+
+
+main .ms-mobile-3 .speed {
+    width: 90%;
+    height: 100%;
+}
+
+main .ms-mobile-3 .ms-mobile-3-txt {
+   
+    font-family: sans-serif;
+    padding: 10px;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+main .ms-mobile-3 .ms-mobile-3-txt h2{
+   
+    font-size: 1.6rem;
+}
+
+main .ms-mobile-3 .ms-mobile-3-txt p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .ms-mobile-3 .ms-mobile-3-txt a {
+    
+    text-decoration: none;
+    color: #2E71A6;
+    font-weight: bold;
+}
+
+main .ms-mobile-4 {
+
+
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+
+}
+
+main .ms-mobile-4 h3 {
+    margin-top: 60px;
+    font-size: 1.7rem;
+}
+
+main .ms-mobile-4 p {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+main .ms-mobile-4 div .ms-mobile-4-btn1 {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: #540B51;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+main .ms-mobile-4 div .ms-mobile-4-btn2 {
+
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    border-style:groove;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #540B51;
+    background-color: white;
+    color: #540B51;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+main .ms-mobile-4 ul {
+    list-style-type: none;
+}
+
+main .ms-mobile-4 ul li span{
+    color: #540B51;
+    font-size: 2.0rem;
+}
+
+main .ms-mobile-4 ul li p{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 0.8rem;
+}
+
+main .ms-mobile-5 {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: #540B51;
+}
+
+main .ms-mobile-5 h3{
+    font-size: 1.6rem;
+    padding-top: 30px;
+}
+
+main .ms-mobile-5 .ms-mobile-5-btn1 {
+
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border-style:groove;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    background-color: #540B51;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+main .ms-mobile-5 .ms-mobile-5-btn2 {
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: white;
+    color: #540B51;
+    text-transform: uppercase;
+    font-weight: 600;
+}
